@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Contactanos</title>
+
+		<style type="text/css">
+			h1{color: #fff;}
+			h2{color: #ffec00;}
+			#mih2{color: #78c2ab;}
+			body{background-image:
+    url('image/rock.jpg');}
+			p{
+				font-size: 15px;
+				color: #000;
+
+			}
+			#container{
+				margin: 5% 10% 5% 10%;
+				border: 10px solid #ccc;
+				background-color: #AEB404;
+				padding: 0 10px 10px 10px;
+			}	
+			.parrafos{
+				background-color: #000;
+			}
+			label{font-weight: bold;}
+		</style>
+	</head>
+<body>
+	<div id="container">
+		<h1><a href="#">Contactanos</a></h1>
+		<h1><a href="#">Diseñamos</a></h1>
+		<form>
+			<p>
+				<label>Motivo del mensaje?</label>
+			</p>
+			<p>
+				<select name="motivo">
+					<option>Quejas</option>
+					<option>Sugerencias</option>
+					<option>Soporte tecnico</option>
+					<option>Nuevo servicio</option>
+					<option selected= "selected">
+					--Seleccionar--</option>
+				</select>
+			</p>
+			<p>
+				<div class="label"><label>Nombre:</label></div>
+			<input type=text" name="nombre">
+		</p>
+		<p>
+				<div class="label"><label>Email:</label></div>
+			<input type=text" name="email">
+		</p>
+		<p>
+			<label>Deja tu comentario</label>
+		</p>
+		<p>	
+			<textarea name= "comentario"
+				cols="100" rows="20">
+			</textarea>
+		</p>
+		<p>
+			<input type="submit" value= "Enviar mensaje"/>
+			<input type="reset" value= "Limpiar datos"/>
+			</p>			
+
+			</form>
+		</div>
+</body>
+</html>
+
+
